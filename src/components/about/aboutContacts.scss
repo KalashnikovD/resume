@@ -1,0 +1,40 @@
+.contacts-feedback, .contacts-social-media {
+    ul {
+        li {            
+            margin-right: 0px;
+            margin-bottom: 10px;;
+
+            a {
+                display: flex;
+                align-items: center;
+                flex-wrap: nowrap;
+                color: var(--main-text-color);
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            span {
+                min-width: 30px;;
+                margin-right: 5px;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+
+            img {
+                width: 24px;
+                position: relative;
+                vertical-align: middle;
+                margin-top: -1px;;
+            }
+
+        }
+    }
+}

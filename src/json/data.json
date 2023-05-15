@@ -1,0 +1,328 @@
+{
+  "logo": {
+    "src": "http://localhost:3000/logo.svg",
+    "alt": "Logo Header"
+  },
+  "logoFooter": {
+    "src": "http://localhost:3000/logo-white.svg",
+    "alt": "Logo Footer"
+  },
+  "headerContacts": {
+    "feedback": [
+      {
+        "name": "+33365486218",
+        "url": "/",
+        "src": "http://localhost:3000/icon-phone.svg",
+        "id": "idHeaderIcon1"
+      },
+      {
+        "name": "Kalashnikov.Dmytro@gmail.com",
+        "url": "/",
+        "src": "http://localhost:3000/icon-email.svg",
+        "id": "idHeaderIcon2"
+      }
+    ],
+    "socialMedia": [
+      {
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/dmytro-kalashnikov-879500155/",
+        "src": "http://localhost:3000/icon-linkedin.svg",
+        "id": "linkedinIcon1"
+      }
+    ]
+  },
+  "sectionMenu": {
+    "links": [
+      {
+        "name": "About me",
+        "url": "#about",
+        "id": "idAbout"
+      },
+      {
+        "name": "Skills",
+        "url": "#skills",
+        "id": "idSkills"
+      },
+      {
+        "name": "Certification",
+        "url": "#certification",
+        "id": "idCertification"
+      },
+      {
+        "name": "Work History",
+        "url": "#work",
+        "id": "idWork"
+      },
+      {
+        "name": "Education",
+        "url": "#education",
+        "id": "idEducation"
+      },
+      {
+        "name": "Contacts",
+        "url": "#contacts",
+        "id": "idContacts"
+      }
+    ]
+  },
+  "sectionsOrder": [
+    "sectionCertificates",
+    "workHistory",
+    "education",
+    "feedback",
+    "sectionAboutMe",
+    "sectionSkills"    
+  ],
+
+  "sectionAboutMe": {
+    "sectionName": "AboutMe",
+    "title": "About Me",
+    "titleDescription": "",
+    "description": "Web developer with 15 years of experience, with experience in working in a large team. He took part in projects as a developer and chief front end developer, as well as Project Manager in some of them, organizing the workflow and control. Responsible for the development process, quality control, code optimization and improving the SEO performance of projects. I speak Ukrainian and Russian fluently, basic conversations are English.",
+    "image": "http://localhost:3000/avatar.jpg",
+    "id": "idAboutSection",
+    "position": 0,
+    "contacts": {
+      "title": "Contact details",
+      "feedback": [
+        {
+          "name": "+33365486218",
+          "url": "/",
+          "src": "http://localhost:3000/icon-phone-orange.svg",
+          "id": "idHeaderIcon1"
+        },
+        {
+          "name": "Kalashnikov.Dmytro@gmail.com",
+          "url": "/",
+          "src": "http://localhost:3000/icon-email-orange.svg",
+          "id": "idHeaderIcon2"
+        }
+      ],
+      "socialMedia": [
+        {
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/in/dmytro-kalashnikov-879500155/",
+          "src": "http://localhost:3000/icon-linkedin.svg",
+          "id": "linkedinIcon1"
+        }
+      ]
+    }
+  },
+
+  "sectionSkills": {
+    "sectionName": "Skills",
+    "title": "Skills",
+    "titleDescription": "",
+    "description": "",
+    "image": "http://localhost:3000/skill-section.jpg",
+    "id": "idSkillsSection",
+    "position": 1,
+    "skillsList":[
+      {
+        "skill": "HTML5",
+        "icon": "http://localhost:3000/icon-html5.png",
+        "url" : "https://www.w3schools.com/html/",
+        "id": "skillIdItem1"
+      },
+      {
+        "skill":  "CSS3",
+        "icon": "http://localhost:3000/icon-css3.png",
+        "url" : "https://www.w3schools.com/css/",
+        "id": "skillIdItem2"
+      },
+      {
+        "skill": "Javascript",
+        "icon": "http://localhost:3000/icon-js.png",
+        "url" : "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "id": "skillIdItem3" 
+      },
+      {
+        "skill": "React",
+        "icon": "http://localhost:3000/icon-react.png",
+        "url" : "https://react.dev/",
+        "id": "skillIdItem4" 
+      },
+      {
+        "skill": "Jquery",
+        "icon": "http://localhost:3000/icon-jquery-v2.png",
+        "url" : "https://jquery.com/",
+        "id": "skillIdItem5" 
+      },
+      {
+        "skill": "Git" ,
+        "icon": "http://localhost:3000/icon-git.png",
+        "url" : "https://git-scm.com/",
+        "id": "skillIdItem6"
+      },
+      {
+        "skill": "Webpack",
+        "icon": "http://localhost:3000/icon-webpack.png",
+        "url" : "https://webpack.js.org/",
+        "id": "skillIdItem7" 
+      },
+      {
+        "skill": "Gulp",
+        "icon": "http://localhost:3000/icon-gulp.png",
+        "url" : "https://gulpjs.com/",
+        "id": "skillIdItem8" 
+      },
+      {
+        "skill": "Sass",
+        "icon": "http://localhost:3000/icon-sass.png",
+        "url" : "https://sass-lang.com/",
+        "id": "skillIdItem9" 
+      },
+      {
+        "skill": "Less",
+        "icon": "http://localhost:3000/icon-less.png",
+        "url" : "https://lesscss.org/",
+        "id": "skillIdItem10" 
+      },
+      {
+        "skill": "Bootstrap",
+        "icon": "http://localhost:3000/icon-bootstrap.png",
+        "url" : "https://getbootstrap.com/",
+        "id": "skillIdItem11"
+      },
+      {
+        "skill": "PhotoShop",
+        "icon": "http://localhost:3000/icon-ps.png",
+        "url" : "https://www.adobe.com/products/photoshop.html",
+        "id": "skillIdItem12" 
+      },
+      {
+        "skill": "Mustache",
+        "icon": "http://localhost:3000/icon-mustache.png",
+        "url" : "https://mustache.github.io/",
+        "id": "skillIdItem13" 
+      },
+      {
+        "skill": "JSON",
+        "icon": "http://localhost:3000/icon-json.png",
+        "url" : "https://www.json.org/json-en.html",
+        "id": "skillIdItem14" 
+      }
+    ]
+  },
+  "sectionCertificates": {
+    "sectionName": "Certificates",
+    "title": "Certificates",
+    "titleDescription": "",
+    "description": "",
+    "image": "http://localhost:3000/skill-section.png",
+    "id": "idCertificatesSection",
+    "position": 2,
+    "certificatesList":[
+      {
+        "cert": "React Basics",
+        "icon": "http://localhost:3000/certificate-react-basic.png",
+        "url" : "https://coursera.org/share/b345210347afc863023363615a492ecf",
+        "id": "certIdItem1"
+      },
+      {
+        "cert": "Programming with JavaScript",
+        "icon": "http://localhost:3000/certificate-js.png",
+        "url" : "https://coursera.org/share/2d066cdb2e18b5c39a5a06bce51bd846",
+        "id": "certIdItem2"
+      },
+      {
+        "cert": "Version Control",
+        "icon": "http://localhost:3000/certificate-version-control.png",
+        "url" : "https://coursera.org/share/5fa72aed08ead888957da3fd8353a57a",
+        "id": "certIdItem3"
+      },
+      {
+        "cert": "HTML and CSS in depth",
+        "icon": "http://localhost:3000/certificate-html-css.png",
+        "url" : "https://coursera.org/share/62bf1ef35e2f0e342fbe30b9f6b30744",
+        "id": "certIdItem4"
+      }
+    ]
+  },
+
+  "workHistory": {
+    "sectionName": "Work Experience",
+    "title": "Work Experience",
+    "titleDescription": "",
+    "description": "<h4>Clickio: 2019-2022</h4>\r\n\r\n                            <p>I worked at Clickio as a Front-End Developer. In this company, I was part of the team and worked closely with the backend developers.</p>\r\n\r\n                            <p>The main task was to create a fast loading progressive web application https://clickio.com/prism/</p>\r\n\r\n                            <p>I developed widget templates on the Mustache engine (https://mustache.github.io), but as the project grew beyond the startup, we moved to self-written extensible templates using <strong>Golang</strong>.</p>\r\n\r\n                            <p>I have created many components that extend the basic functionality of the application. Among the most significant components were the Slider, Lightbox, the Subscribe form, as well as the implementation and processing of third-party scripts.</p>\r\n\r\n                            <p>I have also been heavily involved in JavaScript/CSS/HTML optimization to improve <strong>Web Vitals like CLS, FID, LCP</strong> using Google Chrome authoring tools. It's a requirement</p>\r\n\r\n   <h4>Self-employment period: 2007-2019</h4>\r\n\r\n                            <p>Since 2007, I have mastered HTML/CSS on my own and started freelancing. Over the years, I have participated in over 1000 projects, constantly improving my skills in this area.</p>\r\n\r\n                            <p>My work included both small projects and the creation of large portals, where I acted as a leading specialist. I have collaborated with companies such as openstart, first-top, adlabs.</p>\r\n\r\n                            <p>My main task and responsibility was layout according to PSD/Figma layouts, as well as animations, mostly using CSS and sometimes JavaScript.</p>\r\n\r\n                            <p>In addition, I was actively involved in finding and eliminating errors, as well as quality control of the work of other employees.</p>\r\n\r\n                            <p>I worked in accordance with the <strong>BEM methodology</strong> (Block, Element, Modifier) - an approach to developing web interfaces that Yandex Technologies uses in their work.</p>\r\n\r\n                            <p>An important aspect of my work was the optimization of HTML / CSS and JS in order to improve performance in the PageSpeed Insights tool.</p>",
+    "image": "http://localhost:3000/work-exp.png",
+    "id": "idworkHistorySection",
+    "position": 3     
+  },
+
+  "education": {
+    "sectionName": "Education",
+    "title": "Education",
+    "titleDescription": "",
+    "id": "idEducationSection",
+    "position": 4,  
+    "stegesList": [
+      {
+        "name": "Secondary School",
+        "period": "1994 — 2004",
+        "description" : "",
+        "id": "stegesItem1"
+      },
+      {
+        "name": "Severodonetsk Technological Institute of the East Ukrainian National University. Vladimir Dahl.",
+        "period": "2004 — 2009",
+        "description" : "Severodonetsk Technological Institute of the East Ukrainian National University, Vladimir Dahl 2004 — 2009 </br> Major: Chemical Enterprise Economics</br>Severodonetsk, Ukraine </br></br> I pursued my higher education at the Severodonetsk Technological Institute of the East Ukrainian National University, specializing in Chemical Enterprise Economics. This program spanned five years, from 2004 to 2009, and provided me with a comprehensive understanding of the economic aspects within the chemical industry.",
+        "id": "stegesItem2"
+      }
+    ],
+    "image": "http://localhost:3000/education.png"    
+  },
+  
+  "feedback": {
+    "sectionName": "Feedback",
+    "title": "Contacts",
+    "titleDescription": "",
+    "id": "idFeedbackSection",
+    "position": 5, 
+    "feedbackList": [
+      {
+        "label": "Your name",
+        "fieldName": "firstName",
+        "type": "text",
+        "value": "",
+        "placeholder": "first Name",
+        "errorText" : "",
+        "required": true,
+        "id": "formitem1"
+      },
+      {
+        "label": "Last Name",
+        "fieldName": "lastName",
+        "type": "text",
+        "value": "",
+        "placeholder": "Last Name",
+        "errorText" : "",
+        "required": false,
+        "id": "formitem2"
+      },
+      {
+        "label": "Email",
+        "fieldName": "email",
+        "type": "email",
+        "value": "",
+        "placeholder": "Email",
+        "errorText" : "",
+        "required": true,
+        "id": "formitem3"
+      },
+      {
+        "label": "Message",
+        "fieldName": "textarea",
+        "type" : "textarea",
+        "value": "",
+        "placeholder": "Here your text",
+        "errorText" : "",
+        "required": true,
+        "id": "formitem4"
+      }
+    ],
+    "image": "http://localhost:3000/education.png"    
+  },
+
+  "copyrights": "©Dmytro Kalashnikov"
+}

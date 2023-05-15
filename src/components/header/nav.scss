@@ -1,0 +1,29 @@
+@import "../../default_variables";
+.navigation {
+    background: var(--second-bg-color);
+}
+nav {
+    ul {
+        display: flex;
+        align-items: center;
+
+        li {
+            order: 0;
+            flex: 1 1 auto;
+
+            a {
+                background: var(--second-bg-color);
+                color: var(--second-text-color);
+                display: block;
+                padding: 10px 15px;
+                transition: all 0.4s ease;
+                text-decoration: none;
+                &:hover {
+                    background: var(--main-bg-color);
+                    color: var(--main-text-color);
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

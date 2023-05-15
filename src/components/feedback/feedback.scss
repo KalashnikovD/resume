@@ -1,0 +1,47 @@
+.feedback-section {
+    background: url("http://localhost:3000/first-section-bg.png");
+    background-color: var(--second-bg-color);
+
+    .title-container {
+        h1, h2, h3, h4, h5, h6, p {
+            color: var(--main-bg-color);
+        }
+    }
+
+    .form {
+        width: 600px;
+        margin: 0 auto;
+        color: var(--main-bg-color);
+        &-row {
+            margin-bottom: 15px;
+    
+            label {
+                display: block;
+            }
+    
+            input[type="text"], input[type="email"], input[type="password"], textarea {
+                width: 100%;
+                border: 1px solid var(--second-bg-color);
+                font-size: 24px;
+                padding: 5px 15px;
+                border-radius: 5px;
+            }
+    
+            textarea {
+                height: 80px;
+                border-radius: 5px;
+            } 
+        }
+    }
+    .button {
+        background: var(--main-bg-color);
+        color: var(--second-bg-color);
+        border: 1px solid var(--main-bg-color);
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+        padding: 10px 15px 7px 15px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}

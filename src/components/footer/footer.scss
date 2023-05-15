@@ -1,0 +1,22 @@
+/*footer*/
+footer {
+    /*background: #212121;*/
+    background: var(--second-bg-color);
+    color: var(--second-text-color);
+    flex: 0 1 auto;
+    padding: 15px;
+    border-top: 5px solid var(--main-bg-color);
+}
+.footer-wrapper {    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+    &__logo {
+        img {
+            width: 100px;
+        }
+    }
+}
+/*footer*/

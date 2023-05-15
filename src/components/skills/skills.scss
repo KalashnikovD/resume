@@ -1,0 +1,39 @@
+.skills {
+    background: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+
+.skills-list {
+    font-size: 24px;
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            order: 0;
+            flex: 0 1 auto;
+            align-self: center;
+            width: 30%;
+            display: flex;
+            margin-bottom: 25px;
+            padding-right: 15px;           
+
+            a {
+                display: flex;
+                align-items: center;
+                color: var(--main-text-color);
+            }
+
+            .icon {
+                order: 0;
+                flex-shrink: 0;
+
+                width: 24px;
+                margin-right: 10px;
+                img {
+                    max-width: 24px;;
+                }
+            }           
+        }
+    }
+}

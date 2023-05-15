@@ -1,0 +1,51 @@
+.certificates  {
+    background: url("http://localhost:3000/first-section-bg.png");
+    background-color: var(--second-bg-color);
+    background-size: cover;
+    transition: all 0.4s ease;
+    .title-container {
+        h1, h2, h3, h4, h5, h6 {
+            color: var(--second-text-color);
+        }
+    }
+}
+
+
+.certificates-list {    
+    ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        li {
+            order: 0;
+            flex: 0 1 auto;
+            flex-shrink: 0;
+            width: 45%;
+            text-align: center;
+            margin-bottom: 30px;;
+
+             P {
+                font-size: 24px;
+                font-weight: bold;
+                color: var(--second-text-color);
+                margin-bottom: 15px;;
+             }
+
+            a {
+                display: block;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    transition: all 0.4s ease;
+                }
+
+                &:hover {
+                    img {
+                        transform: scale3d(1.1, 1.1, 1.1);
+                    }
+                }
+            }           
+        }
+    }
+}
