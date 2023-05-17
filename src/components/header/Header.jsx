@@ -10,9 +10,6 @@ import { useState } from 'react';
 function Header(){
     const {data} = useDataContext();
     const [headerPosFix, setHeaderPosFix] = useState(false);
-    
-   
-
     return(
         <>
             <HeaderContacts/>
