@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
-    "formik": "^2.2.9"
+    "formik": "^2.2.9",
+    "react-router-hash-link": "^2.4.3"
   }
 }

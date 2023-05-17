@@ -16,7 +16,7 @@ function Skills(){
     })
 
     return (
-        <section className='skills section-wrapper' id='skills'>
+        <section className='skills section-wrapper' id={skillSection.id}>
             <div className='center'>
 
             <div className='sectionContainer'>

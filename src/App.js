@@ -36,30 +36,26 @@ function App() {
       name = key;
     }
     if(name === "sectionAboutMe") {
-      return <AboutMe></AboutMe>
+      return <AboutMe key={name}></AboutMe>
     }
     else if(name === "sectionSkills") {
-      return <Skills></Skills>
+      return <Skills key={name}></Skills>
     }
     else if(name=== "sectionCertificates") {
-      return <Certificates></Certificates>
+      return <Certificates key={name}></Certificates>
     }
     else if(name === "workHistory") {
-      return <WorkHistory></WorkHistory>
+      return <WorkHistory key={name}></WorkHistory>
     }
     else if(name === "education") {
-      return <Education></Education>
+      return <Education key={name}></Education>
     }
     else if(name === "feedback") {
-      return <Feedback></Feedback>
+      return <Feedback key={name}></Feedback>
     }
     else return "Something went wrong";
   });
-
-
-  console.log(section);
   
-
   return (
     <div className='App page-wrapper'>
         <Header></Header>

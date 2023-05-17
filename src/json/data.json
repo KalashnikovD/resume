@@ -1,7 +1,11 @@
 {
   "logo": {
-    "src": "http://localhost:3000/logo.svg",
-    "alt": "Logo Header"
+    "image": {
+      "src": "http://localhost:3000/logo.svg",
+      "fallback": "http://localhost:3000/logo.svg",
+      "type": "image/svg",
+      "alt": "Logo Header"
+    }
   },
   "logoFooter": {
     "src": "http://localhost:3000/logo-white.svg",
@@ -80,7 +84,7 @@
     "titleDescription": "",
     "description": "Web developer with 15 years of experience, with experience in working in a large team. He took part in projects as a developer and chief front end developer, as well as Project Manager in some of them, organizing the workflow and control. Responsible for the development process, quality control, code optimization and improving the SEO performance of projects. I speak Ukrainian and Russian fluently, basic conversations are English.",
     "image": "http://localhost:3000/avatar.jpg",
-    "id": "idAboutSection",
+    "id": "about",
     "position": 0,
     "contacts": {
       "title": "Contact details",
@@ -115,7 +119,7 @@
     "titleDescription": "",
     "description": "",
     "image": "http://localhost:3000/skill-section.jpg",
-    "id": "idSkillsSection",
+    "id": "skills",
     "position": 1,
     "skillsList":[
       {
@@ -210,7 +214,7 @@
     "titleDescription": "",
     "description": "",
     "image": "http://localhost:3000/skill-section.png",
-    "id": "idCertificatesSection",
+    "id": "certification",
     "position": 2,
     "certificatesList":[
       {
@@ -246,7 +250,7 @@
     "titleDescription": "",
     "description": "<h4>Clickio: 2019-2022</h4>\r\n\r\n                            <p>I worked at Clickio as a Front-End Developer. In this company, I was part of the team and worked closely with the backend developers.</p>\r\n\r\n                            <p>The main task was to create a fast loading progressive web application https://clickio.com/prism/</p>\r\n\r\n                            <p>I developed widget templates on the Mustache engine (https://mustache.github.io), but as the project grew beyond the startup, we moved to self-written extensible templates using <strong>Golang</strong>.</p>\r\n\r\n                            <p>I have created many components that extend the basic functionality of the application. Among the most significant components were the Slider, Lightbox, the Subscribe form, as well as the implementation and processing of third-party scripts.</p>\r\n\r\n                            <p>I have also been heavily involved in JavaScript/CSS/HTML optimization to improve <strong>Web Vitals like CLS, FID, LCP</strong> using Google Chrome authoring tools. It's a requirement</p>\r\n\r\n   <h4>Self-employment period: 2007-2019</h4>\r\n\r\n                            <p>Since 2007, I have mastered HTML/CSS on my own and started freelancing. Over the years, I have participated in over 1000 projects, constantly improving my skills in this area.</p>\r\n\r\n                            <p>My work included both small projects and the creation of large portals, where I acted as a leading specialist. I have collaborated with companies such as openstart, first-top, adlabs.</p>\r\n\r\n                            <p>My main task and responsibility was layout according to PSD/Figma layouts, as well as animations, mostly using CSS and sometimes JavaScript.</p>\r\n\r\n                            <p>In addition, I was actively involved in finding and eliminating errors, as well as quality control of the work of other employees.</p>\r\n\r\n                            <p>I worked in accordance with the <strong>BEM methodology</strong> (Block, Element, Modifier) - an approach to developing web interfaces that Yandex Technologies uses in their work.</p>\r\n\r\n                            <p>An important aspect of my work was the optimization of HTML / CSS and JS in order to improve performance in the PageSpeed Insights tool.</p>",
     "image": "http://localhost:3000/work-exp.png",
-    "id": "idworkHistorySection",
+    "id": "work",
     "position": 3     
   },
 
@@ -254,9 +258,9 @@
     "sectionName": "Education",
     "title": "Education",
     "titleDescription": "",
-    "id": "idEducationSection",
+    "id": "education",
     "position": 4,  
-    "stegesList": [
+    "stagesList": [
       {
         "name": "Secondary School",
         "period": "1994 — 2004",
@@ -277,7 +281,7 @@
     "sectionName": "Feedback",
     "title": "Contacts",
     "titleDescription": "",
-    "id": "idFeedbackSection",
+    "id": "contacts",
     "position": 5, 
     "feedbackList": [
       {

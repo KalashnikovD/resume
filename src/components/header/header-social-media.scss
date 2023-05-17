@@ -4,7 +4,10 @@
     background: var(--second-bg-color);
     color: var(--second-text-color);
     align-items: center;
-    padding: 5px 15px;
+    padding: 0px 15px;
+    height: 36px;
+    display: flex;
+    align-items: center;
 
     .center {
         display: flex;

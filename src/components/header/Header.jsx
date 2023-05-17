@@ -10,18 +10,29 @@ import { useState } from 'react';
 function Header(){
     const {data} = useDataContext();
     const [headerPosFix, setHeaderPosFix] = useState(false);
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 120) {
+            setHeaderPosFix(true);
+        } else {
+            setHeaderPosFix(false);
+        }
+    })
+
     return(
-        <>
-            <HeaderContacts/>
-            <header className={headerPosFix ? "headerFixed" : ""}>               
-                <div className='header-logo'>
-                    <Link to={"/"}>
-                        <ImgWithFallback {...data.logo.image}/>
-                    </Link>
-                </div>
-                <Navigation/>
-            </header>
-        </>
+        <div className={headerPosFix ? "header-container headerFixed" : "header-container"}>
+                <div className='header-scroll'>
+                <HeaderContacts/>
+                <header>               
+                    <div className='header-logo'>
+                        <Link to={"/"}>
+                            <ImgWithFallback {...data.logo.image}/>
+                        </Link>
+                    </div>
+                    <Navigation/>
+                </header>
+            </div>
+        </div>
 
     )
 }

@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
 import './nav.scss';
 import { useDataContext } from '../provider/Provider';
+import { HashLink } from 'react-router-hash-link';
 
 
 function Navigation(){
@@ -9,7 +9,7 @@ function Navigation(){
     const navigationItem = navigationList?.map((item)=> {
         return (
             <li key={item.id}>
-                <Link to={item.url}>{item.name}</Link>
+                <HashLink to={item.url}>{item.name}</HashLink>
             </li>
         )
     })

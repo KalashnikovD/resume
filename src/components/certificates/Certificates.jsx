@@ -18,7 +18,7 @@ function Certificates(){
 
 
     return(
-        <section className='certificates section-wrapper' id='certificates'>
+        <section className='certificates section-wrapper' id={certsSection.id}>
             <div className='center'>
 
             <div className='sectionContainer'>

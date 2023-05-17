@@ -54,7 +54,7 @@ function Feedback() {
     })
 
     return(
-        <section className='feedback-section section-wrapper' id='feedback'>
+        <section className='feedback-section section-wrapper' id={dataSection.id}>
             <div className='center'>
                 <div className='sectionContainer sectionContainer__reverse'>
                     <div className='section-description'>

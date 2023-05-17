@@ -8,7 +8,7 @@ function AboutMe(){
     const dataSection = data.sectionAboutMe;
 
     return(
-        <section className='aboutme section-wrapper' id='aboutme'>
+        <section className='aboutme section-wrapper' id={dataSection.id}>
               <div className='center'>
                   <div className='sectionContainer sectionContainer__reverse'>
                       <div className='section-description'>

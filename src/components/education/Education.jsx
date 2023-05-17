@@ -8,7 +8,7 @@ function Education() {
     const {data} = useDataContext();
     const dataSection = data?.education;
 
-    const educationList = dataSection?.stegesList;    
+    const educationList = dataSection?.stagesList;    
     const stageEducation = educationList?.map((item)=>{
         const text = decodeHTMLEntities(item.description)
         return(
@@ -23,7 +23,7 @@ function Education() {
 
     return(
 
-        <section className='work-history section-wrapper' id='education'>
+        <section className='work-history section-wrapper' id={dataSection.id}>
             <div className='center'>
                 <div className='sectionContainer'>
                     <div className='section-description'>
