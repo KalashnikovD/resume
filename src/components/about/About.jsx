@@ -1,3 +1,4 @@
+import ImgWithFallback from '../imgWithFallback/ImgWithFallback';
 import { useDataContext } from '../provider/Provider';
 import TitleContainer from '../titleContainer/TitleContainer';
 import AboutContacts from './AboutContacts';
@@ -20,7 +21,7 @@ function AboutMe(){
                                      
                       </div>
                       <div className='section-media'>
-                          <img src={dataSection?.image} alt={dataSection?.title}/>
+                        <ImgWithFallback {...dataSection?.image}/>
                       </div>
                   </div>
                 </div>

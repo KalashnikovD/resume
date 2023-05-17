@@ -1,5 +1,6 @@
 import './footer.scss';
 import { useDataContext } from '../provider/Provider';
+import ImgWithFallback from '../imgWithFallback/ImgWithFallback';
 
 
 function Footer(){
@@ -10,7 +11,7 @@ function Footer(){
         <footer>
             <div className="center">
                 <div className="footer-wrapper">
-                    <div className="footer-wrapper__logo"><img src={data.logoFooter.src}  alt="{data.logoFooter.alt}"/></div>
+                    <div className="footer-wrapper__logo"><ImgWithFallback {...data.logoFooter.image}/></div>
                     <div>{data.copyrights}</div>
                 </div>
             </div>    

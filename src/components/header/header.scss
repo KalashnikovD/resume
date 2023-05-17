@@ -1,17 +1,37 @@
-
 .header-container {
-    
-}
-header {
-    text-align: center;
-    padding: 15px 0;;
-    .center {
+    min-height: 200px;
+
+    .header-scroll {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: 0;
+        z-index: 1;
     }
 
-   .header-logo {
-    padding-bottom: 15px;
-        img {
-            max-height: 80px;
+    header {
+        background: var(--main-bg-color);
+        text-align: center;
+    
+       .header-logo {
+        border-top: 1px solid var(--main-bg-color);
+        padding: 0;
+        height: 116px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        transition: all 0.4s ease;
+            img {
+                max-height: 80px;
+            }
+       }
+    }
+
+    &.headerFixed {
+        .header-logo {
+            height: 0px;
+            overflow: hidden;
         }
-   }
+    }
 }

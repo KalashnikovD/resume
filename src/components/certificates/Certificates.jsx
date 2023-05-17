@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { useDataContext } from '../provider/Provider';
 import TitleContainer from '../titleContainer/TitleContainer';
 import './certificates.scss';
+import ImgWithFallback from '../imgWithFallback/ImgWithFallback';
 
 
 function Certificates(){
@@ -12,7 +13,7 @@ function Certificates(){
 
     const certItem = certsList.map((item, index)=> {
         return(
-            <li key={item.id}><p>{item.cert}</p><Link to={item.url}><img src={item.icon} alt={item.cert}/></Link></li>
+            <li key={item.id}><p>{item.cert}</p><Link to={item.url}><ImgWithFallback {...item.image}/></Link></li>
         )
     })
 

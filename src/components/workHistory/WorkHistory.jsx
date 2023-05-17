@@ -2,6 +2,7 @@ import { useDataContext } from '../provider/Provider';
 import TitleContainer from '../titleContainer/TitleContainer';
 import './workhistory.scss';
 import {decodeHTMLEntities} from '../hooks/decodeHTMLEntities/decodeHTMLEntities';
+import ImgWithFallback from '../imgWithFallback/ImgWithFallback';
 
 
 function WorkHistory(){
@@ -22,7 +23,7 @@ function WorkHistory(){
 
                       </div>
                       <div className='section-media'>
-                          <img src={dataSection?.image} alt={dataSection?.title}/>
+                        <ImgWithFallback {...dataSection?.image}/>
                       </div>
                   </div>
                 </div>

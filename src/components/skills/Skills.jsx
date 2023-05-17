@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { useDataContext } from '../provider/Provider';
 import TitleContainer from '../titleContainer/TitleContainer';
 import './skills.scss';
+import ImgWithFallback from '../imgWithFallback/ImgWithFallback';
 
 function Skills(){
 
@@ -11,7 +12,7 @@ function Skills(){
 
     const skillItem = skillsList.map((item, index)=> {
         return(
-            <li key={item.id}><Link to={item.url}><span className='icon'><img src={item.icon} alt={item.skill}/></span><span>{item.skill}</span></Link></li>
+            <li key={item.id}><Link to={item.url}><span className='icon'><ImgWithFallback {...item.image}/></span><span>{item.skill}</span></Link></li>
         )
     })
 
@@ -29,7 +30,7 @@ function Skills(){
                         </div>                                     
                       </div>
                       <div className='section-media'>
-                          <img src={skillSection?.image} alt={skillSection?.title}/>
+                        <ImgWithFallback {...skillSection?.image}/>
                       </div>
                   </div>
             </div>

@@ -2,6 +2,7 @@ import { useDataContext } from '../provider/Provider';
 import TitleContainer from '../titleContainer/TitleContainer';
 import {decodeHTMLEntities} from '../hooks/decodeHTMLEntities/decodeHTMLEntities';
 import './education.scss';
+import ImgWithFallback from '../imgWithFallback/ImgWithFallback';
 
 function Education() {
 
@@ -34,7 +35,7 @@ function Education() {
 
                         </div>
                         <div className='section-media'>
-                            <img src={dataSection?.image} alt={dataSection?.title}/>
+                        <ImgWithFallback {...dataSection?.image}/>
                         </div>
                     </div>
                 </div>

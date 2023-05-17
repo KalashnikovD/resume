@@ -15,7 +15,6 @@ function Navigation(){
     })
 
     
-
     return (
         <div className='navigation'>
             <div className='center'>
