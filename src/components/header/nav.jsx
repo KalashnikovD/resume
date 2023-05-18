@@ -6,9 +6,10 @@ function Navigation(props){
     const navigationList = props.navigationList;
     const navigationItem = navigationList?.map((item)=> {
         console.log(props.active)
+        let active = "#" + props.active;
         return (
             <li key={item.id}>
-                <HashLink to={item.url} className={props.active === item.url? "active" :""}>{item.name}</HashLink>
+                <HashLink to={item.url} className={active === item.url? "active" :""}>{item.name}</HashLink>
             </li>
         )
     })

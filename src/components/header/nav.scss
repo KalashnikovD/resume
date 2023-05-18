@@ -13,7 +13,7 @@ nav {
             order: 0;
             flex: 1 1 auto;
 
-            a {
+            a, {
                 background: var(--second-bg-color);
                 color: var(--second-text-color);
                 display: flex;
@@ -24,7 +24,7 @@ nav {
                 transition: all 0.4s ease;
                 text-decoration: none;
                 height: 40px;
-                &:hover {
+                &:hover, &.active {
                     background: var(--main-bg-color);
                     color: var(--main-text-color);
                     text-decoration: none;

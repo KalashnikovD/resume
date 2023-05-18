@@ -4,7 +4,7 @@ import HeaderContacts from './HeaderContacts.jsx';
 import Navigation from './nav';
 import { useDataContext } from '../provider/Provider';
 import ImgWithFallback from '../imgWithFallback/ImgWithFallback';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 
 function Header(){
@@ -16,31 +16,37 @@ function Header(){
     
 
     let lazyConfig = {
-        rootMargin: "0px 0px 350px 0px",
-        thresHold: 0
+        rootMargin: "350px",
+        threshold: 1
     }
 
-    const observer = new IntersectionObserver((entries, observer)=>{sectionIteration(entries, observer)}, lazyConfig);
+    useEffect(() => {
+        const sectionObserver = new IntersectionObserver((entries, observer)=>{sectionIteration(entries, observer)}, lazyConfig);
     
-
-    function sectionIteration(entries, observer){
-        entries.forEach(entry => {
-            setCurrentSection(entry.target.id)
-            console.log(entry.target.id);
-        });
-    }
-
-    const sectionsList = document.querySelectorAll(".section-wrapper").forEach((element) => observer.observe(element));
-    console.log(sectionsList);
-
-
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 120) {
-            setHeaderPosFix(true);            
-        } else {
-            setHeaderPosFix(false);
+    
+        function sectionIteration(entries, observer){
+            entries.forEach(entry => {
+                setCurrentSection(entry.target.id)
+                console.log(entry.target.id);
+            });
         }
-    })
+    
+        const sectionsList = document.querySelectorAll(".section-wrapper").forEach((element) => sectionObserver.observe(element));
+        console.log(sectionsList);
+        return () => sectionObserver.disconnect();
+    }, [])
+
+    useEffect(() => {
+        const handler = () => {
+            if (window.scrollY > 120) {
+                setHeaderPosFix(true);
+            } else {
+                setHeaderPosFix(false);
+            }
+        }
+        window.addEventListener('scroll', handler)
+        return () => window.removeEventListener('scroll', handler)
+    }, [])
 
     return(
         <div className={headerPosFix ? "header-container headerFixed" : "header-container"}>
