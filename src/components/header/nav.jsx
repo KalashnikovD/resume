@@ -1,15 +1,14 @@
 import './nav.scss';
-import { useDataContext } from '../provider/Provider';
 import { HashLink } from 'react-router-hash-link';
 
 
-function Navigation(){
-    const {data} = useDataContext();
-    const navigationList = data?.sectionMenu.links;
+function Navigation(props){
+    const navigationList = props.navigationList;
     const navigationItem = navigationList?.map((item)=> {
+        console.log(props.active)
         return (
             <li key={item.id}>
-                <HashLink to={item.url}>{item.name}</HashLink>
+                <HashLink to={item.url} className={props.active === item.url? "active" :""}>{item.name}</HashLink>
             </li>
         )
     })

@@ -1,6 +1,7 @@
 @import "../../default_variables";
 .navigation {
     background: var(--second-bg-color);
+    border-bottom: 1px solid var(--main-bg-color);
 }
 nav {
     ul {

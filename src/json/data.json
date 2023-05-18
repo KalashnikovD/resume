@@ -107,7 +107,7 @@
       "fallback": "http://localhost:3000/avatar.jpg",
       "alt": "AboutMe"
     }, 
-    "id": "idAboutSection",
+    "id": "aboutme",
     "position": 0,
     "contacts": {
       "title": "Contact details",
@@ -161,7 +161,7 @@
       "fallback": "http://localhost:3000/skill-section.jpg",
       "alt": "Skills"
     },  
-    "id": "idSkillsSection",
+    "id": "skills",
     "position": 1,
     "skillsList":[
       {
@@ -316,7 +316,7 @@
       "fallback": "http://localhost:3000/skill-section.png",
       "alt": "Certificates"
     },
-    "id": "idCertificatesSection",
+    "id": "certificates",
     "position": 2,
     "certificatesList":[
       {
@@ -372,7 +372,7 @@
       "fallback": "http://localhost:3000/work-exp.png",
       "alt": "Work Experience"
     },
-    "id": "idworkHistorySection",
+    "id": "workhistory",
     "position": 3     
   },
 
@@ -407,7 +407,7 @@
     "sectionName": "Feedback",
     "title": "Feedback",
     "titleDescription": "",
-    "id": "contacts",
+    "id": "feedback",
     "position": 5, 
     "feedbackList": [
       {

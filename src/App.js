@@ -8,6 +8,7 @@ import WorkHistory from './components/workHistory/WorkHistory';
 import Education from './components/education/Education';
 import Feedback from './components/feedback/Feedback';
 import { useDataContext } from './components/provider/Provider';
+import './scripts.js'
 
 function App() {
   const {data} = useDataContext();

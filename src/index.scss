@@ -1,5 +1,7 @@
 @import "default_variables";
-
+html {
+  scroll-behavior: smooth;
+}
 body {
     background: var(--main-bg-color);
     font-family: 'Open Sans', sans-serif;
