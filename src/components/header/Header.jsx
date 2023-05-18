@@ -15,24 +15,30 @@ function Header(){
     const navigationList = data?.sectionMenu?.links;
     
 
-    let lazyConfig = {
-        rootMargin: "350px",
-        threshold: 1
-    }
 
     useEffect(() => {
-        const sectionObserver = new IntersectionObserver((entries, observer)=>{sectionIteration(entries, observer)}, lazyConfig);
+
+        function changeLocation(currentLocation){
+            let currentSection = "#" + currentLocation;
+            window.location.hash = currentSection;
+        }
+
+        let lazyConfig = {
+            rootMargin: "0px",
+            threshold: 0.7
+        }
+        const sectionObserver = new IntersectionObserver(sectionIteration, lazyConfig);
     
     
         function sectionIteration(entries, observer){
-            entries.forEach(entry => {
-                setCurrentSection(entry.target.id)
-                console.log(entry.target.id);
-            });
+            const visibleEntry = entries.find(({isIntersecting}) => isIntersecting)
+            if(visibleEntry) {
+                setCurrentSection(visibleEntry.target.id)
+                changeLocation(visibleEntry.target.id)
+            }
         }
     
-        const sectionsList = document.querySelectorAll(".section-wrapper").forEach((element) => sectionObserver.observe(element));
-        console.log(sectionsList);
+        document.querySelectorAll(".section-wrapper").forEach((element) => sectionObserver.observe(element));
         return () => sectionObserver.disconnect();
     }, [])
 

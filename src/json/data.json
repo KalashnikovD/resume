@@ -18,8 +18,8 @@
   "headerContacts": {
     "feedback": [
       {
-        "name": "+33365486218",
-        "url": "/",
+        "name": "0638972647",
+        "url": "tel:0638972647",
         "image": {
           "src": "http://localhost:3000/icon-phone.svg",
           "fallback": "http://localhost:3000/icon-phone.svg",
@@ -30,7 +30,7 @@
       },
       {
         "name": "Kalashnikov.Dmytro@gmail.com",
-        "url": "/",
+        "url": "mailto:Kalashnikov.Dmytro@gmail.com",
         "image": {
           "src": "http://localhost:3000/icon-email.svg",
           "fallback": "http://localhost:3000/icon-email.svg",
