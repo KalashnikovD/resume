@@ -21,11 +21,12 @@ function Header(){
         function changeLocation(currentLocation){
             let currentSection = "#" + currentLocation;
             window.location.hash = currentSection;
+            return false;
         }
 
         let lazyConfig = {
             rootMargin: "0px",
-            threshold: 0.51
+            threshold: 0.7
         }
         const sectionObserver = new IntersectionObserver(sectionIteration, lazyConfig);
     

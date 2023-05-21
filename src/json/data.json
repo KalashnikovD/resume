@@ -1,16 +1,16 @@
 {
   "logo": {
     "image": {
-      "src": "http://localhost:3000/logo.svg",
-      "fallback": "http://localhost:3000/logo.svg",
+      "src": "https://kalashnikovd.github.io/logo.svg",
+      "fallback": "https://kalashnikovd.github.io/logo.svg",
       "type": "image/svg",
       "alt": "Logo Header"
     }    
   },
   "logoFooter": {
     "image": {
-      "src": "http://localhost:3000/logo-white.svg",
-      "fallback": "http://localhost:3000/logo-white.svg",
+      "src": "https://kalashnikovd.github.io/logo-white.svg",
+      "fallback": "https://kalashnikovd.github.io/logo-white.svg",
       "type": "image/svg",
       "alt": "Logo Footer"
     }    
@@ -21,8 +21,8 @@
         "name": "0638972647",
         "url": "tel:0638972647",
         "image": {
-          "src": "http://localhost:3000/icon-phone.svg",
-          "fallback": "http://localhost:3000/icon-phone.svg",
+          "src": "https://kalashnikovd.github.io/icon-phone.svg",
+          "fallback": "https://kalashnikovd.github.io/icon-phone.svg",
           "type": "image/svg",
           "alt": "phone number"
         },    
@@ -32,8 +32,8 @@
         "name": "Kalashnikov.Dmytro@gmail.com",
         "url": "mailto:Kalashnikov.Dmytro@gmail.com",
         "image": {
-          "src": "http://localhost:3000/icon-email.svg",
-          "fallback": "http://localhost:3000/icon-email.svg",
+          "src": "https://kalashnikovd.github.io/icon-email.svg",
+          "fallback": "https://kalashnikovd.github.io/icon-email.svg",
           "type": "image/svg",
           "alt": "email"
         },    
@@ -45,8 +45,8 @@
         "name": "Linkedin",
         "url": "https://www.linkedin.com/in/dmytro-kalashnikov-879500155/",
         "image": {
-          "src": "http://localhost:3000/icon-linkedin.svg",
-          "fallback": "http://localhost:3000/icon-linkedin.svg",
+          "src": "https://kalashnikovd.github.io/icon-linkedin.svg",
+          "fallback": "https://kalashnikovd.github.io/icon-linkedin.svg",
           "type": "image/svg",
           "alt": "linkedin"
         },  
@@ -103,8 +103,8 @@
     "titleDescription": "",
     "description": "Web developer with 15 years of experience, with experience in working in a large team. He took part in projects as a developer and chief front end developer, as well as Project Manager in some of them, organizing the workflow and control. Responsible for the development process, quality control, code optimization and improving the SEO performance of projects. I speak Ukrainian and Russian fluently, basic conversations are English.",
     "image":  {
-      "src": "http://localhost:3000/avatar.webp",
-      "fallback": "http://localhost:3000/avatar.jpg",
+      "src": "https://kalashnikovd.github.io/avatar.webp",
+      "fallback": "https://kalashnikovd.github.io/avatar.jpg",
       "alt": "AboutMe"
     }, 
     "id": "aboutme",
@@ -116,8 +116,8 @@
           "name": "+33365486218",
           "url": "/",
           "image": {
-            "src": "http://localhost:3000/icon-phone-orange.svg",
-            "fallback": "http://localhost:3000/icon-phone-orange.svg",
+            "src": "https://kalashnikovd.github.io/icon-phone-orange.svg",
+            "fallback": "https://kalashnikovd.github.io/icon-phone-orange.svg",
             "type": "image/svg",
             "alt": "phone number"
           },  
@@ -127,8 +127,8 @@
           "name": "Kalashnikov.Dmytro@gmail.com",
           "url": "/",
           "image": {
-            "src": "http://localhost:3000/icon-email-orange.svg",
-            "fallback": "http://localhost:3000/icon-email-orange.svg",
+            "src": "https://kalashnikovd.github.io/icon-email-orange.svg",
+            "fallback": "https://kalashnikovd.github.io/icon-email-orange.svg",
             "type": "image/svg",
             "alt": "email"
           },  
@@ -140,8 +140,8 @@
           "name": "Linkedin",
           "url": "https://www.linkedin.com/in/dmytro-kalashnikov-879500155/",
           "image": {
-            "src": "http://localhost:3000/icon-linkedin.svg",
-            "fallback": "http://localhost:3000/icon-linkedin.svg",
+            "src": "https://kalashnikovd.github.io/icon-linkedin.svg",
+            "fallback": "https://kalashnikovd.github.io/icon-linkedin.svg",
             "type": "image/svg",
             "alt": "linkedin"
           },  
@@ -157,8 +157,8 @@
     "titleDescription": "",
     "description": "",
     "image": {
-      "src": "http://localhost:3000/skill-section.webp",
-      "fallback": "http://localhost:3000/skill-section.jpg",
+      "src": "https://kalashnikovd.github.io/skill-section.webp",
+      "fallback": "https://kalashnikovd.github.io/skill-section.jpg",
       "alt": "Skills"
     },  
     "id": "skills",
@@ -167,8 +167,8 @@
       {
         "skill": "HTML5",
         "image": {
-          "src": "http://localhost:3000/icon-html5.webp",
-          "fallback": "http://localhost:3000/icon-html5.png",
+          "src": "https://kalashnikovd.github.io/icon-html5.webp",
+          "fallback": "https://kalashnikovd.github.io/icon-html5.png",
           "alt": "HTML5"
         },  
         "url" : "https://www.w3schools.com/html/",
@@ -177,8 +177,8 @@
       {
         "skill":  "CSS3",
         "image": {
-          "src": "http://localhost:3000/icon-css3.webp",
-          "fallback": "http://localhost:3000/icon-css3.png",
+          "src": "https://kalashnikovd.github.io/icon-css3.webp",
+          "fallback": "https://kalashnikovd.github.io/icon-css3.png",
           "alt": "CSS3"
         },  
         "url" : "https://www.w3schools.com/css/",
@@ -187,8 +187,8 @@
       {
         "skill": "Javascript",
         "image": {
-          "src": "http://localhost:3000/icon-js.webp",
-          "fallback": "http://localhost:3000/icon-js.png",
+          "src": "https://kalashnikovd.github.io/icon-js.webp",
+          "fallback": "https://kalashnikovd.github.io/icon-js.png",
           "alt": "Javascript"
         }, 
         "url" : "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
@@ -197,8 +197,8 @@
       {
         "skill": "React",
         "image": {
-          "src": "http://localhost:3000/icon-react.webp",
-          "fallback": "http://localhost:3000/icon-react.png",
+          "src": "https://kalashnikovd.github.io/icon-react.webp",
+          "fallback": "https://kalashnikovd.github.io/icon-react.png",
           "alt": "React"
         }, 
         "url" : "https://react.dev/",
@@ -207,8 +207,8 @@
       {
         "skill": "Jquery",
         "image": {
-          "src": "http://localhost:3000/icon-jquery-v2.webp",
-          "fallback": "http://localhost:3000/icon-jquery-v2.png",
+          "src": "https://kalashnikovd.github.io/icon-jquery-v2.webp",
+          "fallback": "https://kalashnikovd.github.io/icon-jquery-v2.png",
           "alt": "Jquery"
         }, 
         "url" : "https://jquery.com/",
@@ -217,8 +217,8 @@
       {
         "skill": "Git" ,
         "image": {
-          "src": "http://localhost:3000/icon-git.webp",
-          "fallback": "http://localhost:3000/icon-git.png",
+          "src": "https://kalashnikovd.github.io/icon-git.webp",
+          "fallback": "https://kalashnikovd.github.io/icon-git.png",
           "alt": "Git"
         }, 
         "url" : "https://git-scm.com/",
@@ -227,8 +227,8 @@
       {
         "skill": "Webpack",
         "image": {
-          "src": "http://localhost:3000/icon-webpack.webp",
-          "fallback": "http://localhost:3000/icon-webpack.png",
+          "src": "https://kalashnikovd.github.io/icon-webpack.webp",
+          "fallback": "https://kalashnikovd.github.io/icon-webpack.png",
           "alt": "Webpack"
         },
         "url" : "https://webpack.js.org/",
@@ -237,8 +237,8 @@
       {
         "skill": "Gulp",
         "image": {
-          "src": "http://localhost:3000/icon-gulp.webp",
-          "fallback": "http://localhost:3000/icon-gulp.png",
+          "src": "https://kalashnikovd.github.io/icon-gulp.webp",
+          "fallback": "https://kalashnikovd.github.io/icon-gulp.png",
           "alt": "Gulp"
         },
         "url" : "https://gulpjs.com/",
@@ -247,8 +247,8 @@
       {
         "skill": "Sass",
         "image": {
-          "src": "http://localhost:3000/icon-sass.webp",
-          "fallback": "http://localhost:3000/icon-sass.png",
+          "src": "https://kalashnikovd.github.io/icon-sass.webp",
+          "fallback": "https://kalashnikovd.github.io/icon-sass.png",
           "alt": "Sass"
         },
         "url" : "https://sass-lang.com/",
@@ -257,8 +257,8 @@
       {
         "skill": "Less",
         "image": {
-          "src": "http://localhost:3000/icon-less.webp",
-          "fallback": "http://localhost:3000/icon-less.png",
+          "src": "https://kalashnikovd.github.io/icon-less.webp",
+          "fallback": "https://kalashnikovd.github.io/icon-less.png",
           "alt": "Less"
         },
         "url" : "https://lesscss.org/",
@@ -267,8 +267,8 @@
       {
         "skill": "Bootstrap",
         "image": {
-          "src": "http://localhost:3000/icon-bootstrap.webp",
-          "fallback": "http://localhost:3000/icon-bootstrap.png",
+          "src": "https://kalashnikovd.github.io/icon-bootstrap.webp",
+          "fallback": "https://kalashnikovd.github.io/icon-bootstrap.png",
           "alt": "Bootstrap"
         },
         "url" : "https://getbootstrap.com/",
@@ -277,8 +277,8 @@
       {
         "skill": "PhotoShop",
         "image": {
-          "src": "http://localhost:3000/icon-ps.webp",
-          "fallback": "http://localhost:3000/icon-ps.png",
+          "src": "https://kalashnikovd.github.io/icon-ps.webp",
+          "fallback": "https://kalashnikovd.github.io/icon-ps.png",
           "alt": "PhotoShop"
         },
         "url" : "https://www.adobe.com/products/photoshop.html",
@@ -287,8 +287,8 @@
       {
         "skill": "Mustache",
         "image": {
-          "src": "http://localhost:3000/icon-mustache.webp",
-          "fallback": "http://localhost:3000/icon-mustache.png",
+          "src": "https://kalashnikovd.github.io/icon-mustache.webp",
+          "fallback": "https://kalashnikovd.github.io/icon-mustache.png",
           "alt": "Mustache"
         },
         "url" : "https://mustache.github.io/",
@@ -297,8 +297,8 @@
       {
         "skill": "JSON",
         "image": {
-          "src": "http://localhost:3000/icon-json.webp",
-          "fallback": "http://localhost:3000/icon-json.png",
+          "src": "https://kalashnikovd.github.io/icon-json.webp",
+          "fallback": "https://kalashnikovd.github.io/icon-json.png",
           "alt": "JSON"
         },
         "url" : "https://www.json.org/json-en.html",
@@ -312,8 +312,8 @@
     "titleDescription": "",
     "description": "",
     "image": {
-      "src": "http://localhost:3000/iskill-section.webp",
-      "fallback": "http://localhost:3000/skill-section.png",
+      "src": "https://kalashnikovd.github.io/iskill-section.webp",
+      "fallback": "https://kalashnikovd.github.io/skill-section.png",
       "alt": "Certificates"
     },
     "id": "certificates",
@@ -322,8 +322,8 @@
       {
         "cert": "React Basics",
         "image": {
-          "src": "http://localhost:3000/certificate-react-basic.webp",
-          "fallback": "http://localhost:3000/certificate-react-basic.png",
+          "src": "https://kalashnikovd.github.io/certificate-react-basic.webp",
+          "fallback": "https://kalashnikovd.github.io/certificate-react-basic.png",
           "alt": "React Basics"
         },  
         "url" : "https://coursera.org/share/b345210347afc863023363615a492ecf",
@@ -332,8 +332,8 @@
       {
         "cert": "Programming with JavaScript",
         "image": {
-          "src": "http://localhost:3000/certificate-js.webp",
-          "fallback": "http://localhost:3000/certificate-js.png",
+          "src": "https://kalashnikovd.github.io/certificate-js.webp",
+          "fallback": "https://kalashnikovd.github.io/certificate-js.png",
           "alt": "Programming with JavaScript"
         },
         "url" : "https://coursera.org/share/2d066cdb2e18b5c39a5a06bce51bd846",
@@ -342,8 +342,8 @@
       {
         "cert": "Version Control",
         "image": {
-          "src": "http://localhost:3000/certificate-version-control.webp",
-          "fallback": "http://localhost:3000/certificate-version-control.png",
+          "src": "https://kalashnikovd.github.io/certificate-version-control.webp",
+          "fallback": "https://kalashnikovd.github.io/certificate-version-control.png",
           "alt": "Version Control"
         },
         "url" : "https://coursera.org/share/5fa72aed08ead888957da3fd8353a57a",
@@ -352,8 +352,8 @@
       {
         "cert": "HTML and CSS in depth",
         "image": {
-          "src": "http://localhost:3000/certificate-html-css.webp",
-          "fallback": "http://localhost:3000/certificate-html-css.png",
+          "src": "https://kalashnikovd.github.io/certificate-html-css.webp",
+          "fallback": "https://kalashnikovd.github.io/certificate-html-css.png",
           "alt": "HTML and CSS in depth"
         },
         "url" : "https://coursera.org/share/62bf1ef35e2f0e342fbe30b9f6b30744",
@@ -368,8 +368,8 @@
     "titleDescription": "",
     "description": "<h4>Clickio: 2019-2022</h4>\r\n\r\n                            <p>I worked at Clickio as a Front-End Developer. In this company, I was part of the team and worked closely with the backend developers.</p>\r\n\r\n                            <p>The main task was to create a fast loading progressive web application https://clickio.com/prism/</p>\r\n\r\n                            <p>I developed widget templates on the Mustache engine (https://mustache.github.io), but as the project grew beyond the startup, we moved to self-written extensible templates using <strong>Golang</strong>.</p>\r\n\r\n                            <p>I have created many components that extend the basic functionality of the application. Among the most significant components were the Slider, Lightbox, the Subscribe form, as well as the implementation and processing of third-party scripts.</p>\r\n\r\n                            <p>I have also been heavily involved in JavaScript/CSS/HTML optimization to improve <strong>Web Vitals like CLS, FID, LCP</strong> using Google Chrome authoring tools. It's a requirement</p>\r\n\r\n   <h4>Self-employment period: 2007-2019</h4>\r\n\r\n                            <p>Since 2007, I have mastered HTML/CSS on my own and started freelancing. Over the years, I have participated in over 1000 projects, constantly improving my skills in this area.</p>\r\n\r\n                            <p>My work included both small projects and the creation of large portals, where I acted as a leading specialist. I have collaborated with companies such as openstart, first-top, adlabs.</p>\r\n\r\n                            <p>My main task and responsibility was layout according to PSD/Figma layouts, as well as animations, mostly using CSS and sometimes JavaScript.</p>\r\n\r\n                            <p>In addition, I was actively involved in finding and eliminating errors, as well as quality control of the work of other employees.</p>\r\n\r\n                            <p>I worked in accordance with the <strong>BEM methodology</strong> (Block, Element, Modifier) - an approach to developing web interfaces that Yandex Technologies uses in their work.</p>\r\n\r\n                            <p>An important aspect of my work was the optimization of HTML / CSS and JS in order to improve performance in the PageSpeed Insights tool.</p>",
     "image": {
-      "src": "http://localhost:3000/work-exp.webp",
-      "fallback": "http://localhost:3000/work-exp.png",
+      "src": "https://kalashnikovd.github.io/work-exp.webp",
+      "fallback": "https://kalashnikovd.github.io/work-exp.png",
       "alt": "Work Experience"
     },
     "id": "workhistory",
@@ -397,8 +397,8 @@
       }
     ],
     "image": {
-      "src": "http://localhost:3000/education.webp",
-      "fallback": "http://localhost:3000/education.png",
+      "src": "https://kalashnikovd.github.io/education.webp",
+      "fallback": "https://kalashnikovd.github.io/education.png",
       "alt": "Education"
     }  
   },
