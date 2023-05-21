@@ -20,9 +20,10 @@ function Header(){
 
         function changeLocation(currentLocation){
             let currentSection = "#" + currentLocation;
-            window.location.hash = currentSection;
+            window.history.pushState('state', 'title', `${currentSection}`);
             return false;
         }
+        
 
         let lazyConfig = {
             rootMargin: "0px",
