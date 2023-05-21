@@ -1,8 +1,11 @@
 .sectionContainer {
-    scroll-margin-top: 74px;
     .section-description {
         text-align: left;
         padding-right: 50px;
+
+        @media only screen and (max-width: 768px) {                
+            padding-right: 0px;
+        }  
 
         p {
             line-height: 140%;
@@ -12,23 +15,5 @@
             margin-top: 20px;;
         }
     }
-
-    &__reverse {
-        .section-description {
-            padding-left: 50px;
-            padding-right: 0px;
-        }
-    }
-
-    .section-media {
-        order: 0;
-        flex: 0 1 auto;
-        flex-shrink: 0;
-        width: 25%;
-        position: relative;
-        img {
-            max-width: 100%;
-            border-radius:  20px;
-        }
-    }
+    
 }
