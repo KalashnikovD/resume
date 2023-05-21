@@ -12,6 +12,11 @@
         width: 600px;
         margin: 0 auto;
         color: var(--main-bg-color);
+
+        @media only screen and (max-width: 768px) {                
+            width: auto;
+        } 
+
         &-row {
             margin-bottom: 15px;
     

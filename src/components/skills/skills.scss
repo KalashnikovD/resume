@@ -6,6 +6,11 @@
 
 .skills-list {
     font-size: 24px;
+
+    @media only screen and (max-width: 389px) { 
+       font-size: 16px;
+    }
+
     ul {
         display: flex;
         flex-wrap: wrap;
@@ -16,7 +21,13 @@
             width: 30%;
             display: flex;
             margin-bottom: 25px;
-            padding-right: 15px;           
+            padding-right: 3%;      
+            
+            @media only screen and (max-width: 769px) { 
+                width: 50%;
+                padding-right: 0%;
+            }
+            
 
             a {
                 display: flex;

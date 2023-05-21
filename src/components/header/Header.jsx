@@ -25,7 +25,7 @@ function Header(){
 
         let lazyConfig = {
             rootMargin: "0px",
-            threshold: 0.7
+            threshold: 0.51
         }
         const sectionObserver = new IntersectionObserver(sectionIteration, lazyConfig);
     

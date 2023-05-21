@@ -5,7 +5,7 @@
     color: var(--second-text-color);
     display: flex;
     align-items: center;
-    padding: 0px 15px;
+    padding: 0px;
     height: 34px;
 
     .center {
@@ -57,9 +57,31 @@
 .header-contacts-feedback {
     order: 0;
     flex: 0 1 auto; 
+
+    @media only screen and (max-width: 479px) {
+        font-size: 0; 
+     }
 }
 
 .header-contacts-social-media {
     order: 0;
     flex: 0 1 auto;
+
+    @media only screen and (max-width: 600px) {
+      font-size: 0; 
+   }
+
+   ul {
+    li {
+        &:last-child {
+            margin-right: 0px;
+        }
+        span.icon {
+            @media only screen and (max-width: 600px) {
+                margin-right: 0px;
+             }
+        }
+    }
+   }
+
 }

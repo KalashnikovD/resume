@@ -1,11 +1,10 @@
 import './nav.scss';
 import { HashLink } from 'react-router-hash-link';
-
+import { useState } from 'react';
 
 function Navigation(props){
     const navigationList = props.navigationList;
     const navigationItem = navigationList?.map((item)=> {
-        console.log(props.active)
         let active = "#" + props.active;
         return (
             <li key={item.id}>
@@ -14,11 +13,18 @@ function Navigation(props){
         )
     })
 
+    const [navState, setNavState] = useState(false);
+
+    const changeNavState = ()=> {
+        setNavState(!navState);
+    }
+
     
     return (
         <div className='navigation'>
+            <span className={"icon-drop-navigation" +  (navState ? " active" : "")} onClick={changeNavState} ><span></span></span> 
             <div className='center'>
-                <nav>
+                <nav className={navState ? " active" : ""}>
                     <ul>
                         {navigationItem}
                     </ul>

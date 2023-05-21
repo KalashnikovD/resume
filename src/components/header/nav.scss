@@ -2,6 +2,86 @@
 .navigation {
     background: var(--second-bg-color);
     border-bottom: 1px solid var(--main-bg-color);
+
+    .center {
+        padding: 0px;
+    }
+
+    .icon-drop-navigation {
+        display: none;
+        position: relative;
+        overflow: hidden;
+        width: 36px;
+        height: 36px;
+        font-size: 0;
+        text-indent: -9999px;
+        transition: background 0.3s;
+        position: absolute;
+        right: 13px;
+        top: 46px;
+    
+        @media only screen and (max-width: 768px) {                
+            display: block;
+        }
+    
+        span {
+          transition: background 0s 0.3s;
+          display: block;
+          position: absolute;
+          top: 50%;
+          margin-top: -1px;
+          left: 3px;
+          right: 3px;
+          height: 2px;
+          background: var(--second-bg-color);
+    
+          &:before, &:after {
+            transition-duration: 0.3s, 0.3s;
+            transition-delay: 0.3s, 0s;
+            position: absolute;
+            display: block;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color:  var(--second-bg-color);
+            content: '';
+          }
+    
+          &:before {
+            transition-property: top, transform;
+            top: -10px;
+          }
+    
+          &:after {
+            transition-property: bottom, transform;
+            bottom: -10px;
+          }
+        }
+        &.active {
+            background:  var(--second-bg-color);  
+    
+          span {
+            background: none;
+            &:before {
+                top: 0;
+                transform: rotate(45deg);
+            }
+            &:after {
+                bottom: 0;
+                transform: rotate(-45deg);
+            }
+    
+            &:before, &:after {
+                transition-delay: 0s, 0.3s;
+                background-color:  var(--main-bg-color);
+            }
+          }
+        }
+    
+        &.active + nav {
+            left: 0;
+        }
+    }
 }
 nav {
     ul {
@@ -9,11 +89,19 @@ nav {
         align-items: center;
         height: 40px;
 
+        @media only screen and (max-width: 600px) {                
+            display: block;
+            height: 0px;
+            overflow: hidden;
+            position: relative;
+            transition: all 0.4s ease;
+        }        
+
         li {
             order: 0;
             flex: 1 1 auto;
 
-            a, {
+            a {
                 background: var(--second-bg-color);
                 color: var(--second-text-color);
                 display: flex;
@@ -24,11 +112,28 @@ nav {
                 transition: all 0.4s ease;
                 text-decoration: none;
                 height: 40px;
-                &:hover, &.active {
+
+                
+                &:hover {
+                    @media only screen and (min-width: 769px) { 
+                        background: var(--main-bg-color);
+                        color: var(--main-text-color);
+                        text-decoration: none;
+                    }
+                    text-decoration: none;
+                }
+                 &.active {
                     background: var(--main-bg-color);
                     color: var(--main-text-color);
                     text-decoration: none;
                 }
+            }
+        }
+    }
+    &.active {
+        ul {
+            @media only screen and (max-width: 600px) { 
+                height: 240px;
             }
         }
     }
